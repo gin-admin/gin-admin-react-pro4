@@ -1,57 +1,27 @@
-# Ant Design Pro
+# Gin Admin React - [gin-admin](https://github.com/LyricTian/gin-admin)
+<div align="center">
+基于 Ant Design Pro v4 实现的RBAC权限管理脚手架，目的是提供一套轻量的中后台开发框架，方便、快速的完成业务需求的开发。   
+</div>
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+- [在线演示地址](http://demo.tiannianshou.com) (用户名：root，密码：abc-123)   
+（`温馨提醒：为了达到更好的演示效果，这里给出了拥有最高权限的用户，请手下留情，只操作自己新增的数据，不要动平台本身的数据！谢谢！`）
 
-## Environment Prepare
-
-Install `node_modules`:
-
-```bash
-npm install
+## 获取并运行
 ```
-
-or
-
-```bash
+git clone https://github.com/gin-admin/gin-admin-react.git
+cd gin-admin-react
 yarn
+yarn start
 ```
 
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
+## 打包编译
+```
+umi build
 ```
 
-### Build project
+## 讨论组
+> QQ群： 1409099
+> <img src="./screenshot_qq.jpeg" width="256" height="256" />
 
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+## MIT License
+Copyright (c) 2019 gin-admin   
