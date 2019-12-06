@@ -27,7 +27,7 @@ const Model = {
         payload: data,
       }); // Login successfully
 
-      if (response.status === 200) {
+      if (response.status === 200 && data.expires_at && data.expires_at > 0) {
         store.setAccessToken(data);
 
         const urlParams = new URL(window.location.href);

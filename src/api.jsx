@@ -1,4 +1,4 @@
-const Domain = 'http://127.0.0.1:10087'; /* 使用当前域名留空 */
+const Domain = ''; /* 使用当前域名留空 */
 const BaseUrl = `${Domain}/api`;
 
 export const Public = {
