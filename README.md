@@ -21,7 +21,7 @@ umi build
 
 ## 讨论组
 > QQ群： 1409099
-> <img src="./screenshot_qq.jpeg" width="256" height="256" />
+> <img src="./screenshot_qq.jpeg" width="256" height="350" />
 
 ## MIT License
 Copyright (c) 2019 gin-admin   
